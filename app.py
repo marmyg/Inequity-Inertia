@@ -106,7 +106,7 @@ def run_simulation(
     return rep_B_final
 
 # =============== Streamlit UI ==================
-st.set_page_config(layout="wide", page_title="Inequity Inertia — Bubbles Only")
+st.set_page_config(layout="wide", page_title="Inequity Inertia")
 
 st.title("Inequity Inertia — Bubble View")
 st.caption("The bubble’s x-axis is Group B’s population share. The y-axis is Group B’s share inside the power tier P after T steps.")
